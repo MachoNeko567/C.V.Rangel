@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto de investigación</title>
+</head>
+
+    <title>Contacto de equuipo</title>
+    <style>
+        body
+        {
+            background-color:brown;
+        }
+        #nombre
+        {
+            border: solid 1px;
+            padding: 8px;
+        }
+        legend
+        {
+            border: solid 1px;
+            border-radius: 15px;
+            background-color:darkgray;
+        }
+        table,th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+<body>
+        <h3>Datos de contacto para Equipo</h3>
+        <form action="" method="">
+            <table>
+                <tr>
+                    <td>Nombre Completo:</td> 
+                    <td> <input type="text" name="nombre_completo" size="35"></td>
+                </tr>
+
+                <tr>
+                    <td>Nombre de la investigación:</td>
+                    <td> <input type="text" name="nombre_investigacion" size="50"></td>
+                </tr>
+
+                <tr>
+                    <td>Describe la investigación:</td>
+                    <td> <textarea name="desc_inv" id="desc_inv" cols="50" rows="15"></textarea></textarea></td>
+                </tr>
+            </table>
+
+            <br>
+            <tr>
+                <p>Area de conocimiento: </p>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox" id="VC" value="VC">
+                <label for="VC">Desarrollo de Reporte</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td><input type="checkbox" id="ML" value="ML">
+                <label for="ML">Desarrollo de programación</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td><input type="checkbox" id="VC" value="VC">
+                <label for="VC">Desarrollo de investigación</label></td>
+            </tr>
+            <br>
+            <p>Nivel de investigación: </p>
+            </tr>
+
+            <tr>
+                <td><input type="radio" id="MC" name="Inv" value="MC">
+                <label for="MC">Investigación del Reporte</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td><input type="radio" id="DC" name="Inv" value="DC">
+                <label for="DC">Investigación del programa</label></td>
+            </tr>
+            <br>
+            <tr>
+                <td><input type="radio" id="PDC" name="Inv" value="PDC">
+                <label for="PDC">Investigación del Referencias</label></td>
+            </tr>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <input type="password">
+        <br>
+        <input type="file">
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <a href="index.html">Inicio</a>
+</body>
+</html>
